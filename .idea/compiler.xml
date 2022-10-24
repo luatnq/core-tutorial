@@ -6,9 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="business" />
         <module name="config-server" />
         <module name="core-kafka" />
+        <module name="base" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -17,7 +17,8 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="business" options="-parameters" />
+      <module name="base" options="-parameters" />
+      <module name="business" options="" />
       <module name="config-server" options="-parameters" />
       <module name="core" options="" />
       <module name="core-" options="-parameters" />

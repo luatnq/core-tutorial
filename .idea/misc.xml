@@ -8,6 +8,7 @@
         <option value="$PROJECT_DIR$/config-server/pom.xml" />
         <option value="$PROJECT_DIR$/core/core-authentication/pom.xml" />
         <option value="$PROJECT_DIR$/core/core-kafka/pom.xml" />
+        <option value="$PROJECT_DIR$/business/base/pom.xml" />
       </list>
     </option>
   </component>
