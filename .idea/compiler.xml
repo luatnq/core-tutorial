@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="business" />
         <module name="config-server" />
+        <module name="core-kafka" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -21,6 +22,7 @@
       <module name="core" options="" />
       <module name="core-" options="-parameters" />
       <module name="core-authentication" options="" />
+      <module name="core-kafka" options="-parameters" />
     </option>
   </component>
 </project>

@@ -33,7 +33,12 @@
             <dependency>
                 <groupId>org.example</groupId>
                 <artifactId>core-authentication</artifactId>
-                <version>${project.version}</version>
+                <version>${revision}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.example</groupId>
+                <artifactId>core-kafka</artifactId>
+                <version>${revision}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

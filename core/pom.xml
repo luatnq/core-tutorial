@@ -16,6 +16,7 @@
 
     <modules>
         <module>core-authentication</module>
+        <module>core-kafka</module>
     </modules>
 
 </project>
