@@ -8,13 +8,19 @@
         <outputRelativeToContentRoot value="true" />
         <module name="business" />
         <module name="config-server" />
-        <module name="core" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="core-" target="11" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="business" options="-parameters" />
       <module name="config-server" options="-parameters" />
+      <module name="core" options="" />
+      <module name="core-" options="-parameters" />
+      <module name="core-authentication" options="" />
     </option>
   </component>
 </project>
