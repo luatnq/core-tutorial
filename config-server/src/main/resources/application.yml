@@ -1,1 +1,13 @@
+spring:
+  profiles:
+    active: native
+  cloud:
+    config:
+      server:
+        native:
+          search-locations: "[classpath:/, classpath:/config, classpath:/config/{application}, classpath:/config/{application}/{profile}]"
+  application:
+    name: tutorial-config-server
 
+server:
+  port: 8088

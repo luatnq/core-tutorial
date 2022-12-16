@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/core/core-kafka" />
+  </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/config-server/pom.xml" />
+        <option value="$PROJECT_DIR$/business/finance-api/pom.xml" />
+        <option value="$PROJECT_DIR$/core/core-kafka/pom.xml" />
+        <option value="$PROJECT_DIR$/core/core-authentication/pom.xml" />
+        <option value="$PROJECT_DIR$/core/core-exception/pom.xml" />
+        <option value="$PROJECT_DIR$/core/core-exception-api/pom.xml" />
       </list>
     </option>
   </component>
