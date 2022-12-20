@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/business/base/base.iml" filepath="$PROJECT_DIR$/business/base/base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/business/business.iml" filepath="$PROJECT_DIR$/business/business.iml" />
+      <module fileurl="file://$PROJECT_DIR$/config-server/config-server.iml" filepath="$PROJECT_DIR$/config-server/config-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/core/core.iml" filepath="$PROJECT_DIR$/core/core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/core/core-authentication/core-authentication.iml" filepath="$PROJECT_DIR$/core/core-authentication/core-authentication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/core/core-exception/core-exception.iml" filepath="$PROJECT_DIR$/core/core-exception/core-exception.iml" />
+      <module fileurl="file://$PROJECT_DIR$/core/core-exception-api/core-exception-api.iml" filepath="$PROJECT_DIR$/core/core-exception-api/core-exception-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/core/core-kafka/core-kafka.iml" filepath="$PROJECT_DIR$/core/core-kafka/core-kafka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/business/finance-api/finance-api.iml" filepath="$PROJECT_DIR$/business/finance-api/finance-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tutorial-core.iml" filepath="$PROJECT_DIR$/tutorial-core.iml" />
+    </modules>
+  </component>
+</project>

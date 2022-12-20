@@ -9,11 +9,17 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/config-server/pom.xml" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/business/finance-api/pom.xml" />
         <option value="$PROJECT_DIR$/core/core-kafka/pom.xml" />
         <option value="$PROJECT_DIR$/core/core-authentication/pom.xml" />
         <option value="$PROJECT_DIR$/core/core-exception/pom.xml" />
         <option value="$PROJECT_DIR$/core/core-exception-api/pom.xml" />
+=======
+        <option value="$PROJECT_DIR$/core/core-authentication/pom.xml" />
+        <option value="$PROJECT_DIR$/core/core-kafka/pom.xml" />
+        <option value="$PROJECT_DIR$/business/base/pom.xml" />
+>>>>>>> e244a2b5fd4c925f7781af90916823176cc74e49
       </list>
     </option>
   </component>

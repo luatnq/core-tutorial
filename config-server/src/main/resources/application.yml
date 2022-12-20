@@ -1,4 +1,9 @@
 spring:
+<<<<<<< HEAD
+=======
+  application:
+    name: core-config-server
+>>>>>>> e244a2b5fd4c925f7781af90916823176cc74e49
   profiles:
     active: native
   cloud:
@@ -6,8 +11,13 @@ spring:
       server:
         native:
           search-locations: "[classpath:/, classpath:/config, classpath:/config/{application}, classpath:/config/{application}/{profile}]"
+<<<<<<< HEAD
   application:
     name: tutorial-config-server
 
 server:
   port: 8088
+=======
+server:
+  port: 8088
+>>>>>>> e244a2b5fd4c925f7781af90916823176cc74e49
